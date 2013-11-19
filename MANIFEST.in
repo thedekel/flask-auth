@@ -1,0 +1,6 @@
+include LICENSE
+recursive-include docs *
+recursive-include examples *.py
+recursive-exclude flaskext *.pyc
+recursive-exclude examples *.pyc
+prune docs/_build
